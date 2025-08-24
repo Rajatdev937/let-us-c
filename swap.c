@@ -16,19 +16,20 @@ After swap: 1 -1
 #include<stdio.h>
 int main ()
 {
-int a,b,temp;
-printf("enter the numbers to be swapped: ");
+int num1,num2,temp;//num1=1st number  num2=2nd number temp=temproray variable
+  
+printf("enter the numbers to be swapped: ");//enter the numbers
 scanf("%d%d",&a,&b);
 
 printf("before swapping a=%d b=%d \n",a,b);
 
+// Swapping using third variable
 temp=a;
-
 a=b;
-
 b=temp;
 
-printf("after swapping a= %d b= %d\n",a,b);    
-
+printf("after spwaping a= %d b= %d\n",a,b);    //numbers are swapped
+  
 return 0;
+
 }
