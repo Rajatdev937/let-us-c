@@ -8,10 +8,10 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Rajat Negi/OneDrive/Desktop/PROG LANG",
-      "program": "c:/Users/Rajat Negi/OneDrive/Desktop/PROG LANG/build/Debug/outDebug",
+      "cwd": "c:/Users/Rajat Negi/OneDrive/Desktop/PROG LANG/let-us-c",
+      "program": "c:/Users/Rajat Negi/OneDrive/Desktop/PROG LANG/let-us-c/build/Debug/outDebug",
       "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
+      "miDebuggerPath": "C:/MinGW/bin/gdb.exe",
       "setupCommands": [
         {
           "description": "Enable pretty-printing for gdb",

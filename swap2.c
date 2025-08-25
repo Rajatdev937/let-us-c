@@ -31,21 +31,3 @@ printf("after swapping a=%d b=%d \n" ,num1,num2);//display vlaues after swapping
 return 0;
 }
 
-//   METHOD II (Using  bitwise XOR)
-#include<stdio.h>
-int main ()
-{
-int num1,num2 ;
-//ask user to input two numbers
-printf("enter two number: ");
-scanf("%d%d",&num1,&num2);
- 
-printf("before swapping a=%d b=%d \n",num1,num2);
-
-num1=num1^num2;
-num2=num2^num1;
-num1=num2^num1;
-
-printf("after swapping a=%d b=%d \n" ,num1,num2);//display vlaues after swapping
-return 0;
-}
