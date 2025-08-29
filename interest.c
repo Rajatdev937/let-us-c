@@ -1,6 +1,6 @@
 // Q9: Write a program to calculate simple and compound interest for given principal, rate, and time.
 
-/*
+//
 Sample Test Cases:
 Input 1:
 1000 5 2
@@ -36,7 +36,8 @@ int main() {
 }
 //II.Compound Interest
 #include <stdio.h>
-#include <maths.h>//for pow() function    
+#include <math.h>//for pow() function   
+ 
 int main() {
     int p, t,n;
     float r, CI;
