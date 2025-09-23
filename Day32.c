@@ -21,7 +21,6 @@ int main() {
     scanf("%lld", &num);
 
     int count[10] = {0}; // To count digits 0-9
-
     // Handle negative numbers
     if(num < 0) num = -num;
 
