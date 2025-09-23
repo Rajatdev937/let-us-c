@@ -6,8 +6,11 @@ Each program is written in C language and organized by topic.
 
 ## 📂 Structure
 - Basics → simple input/output, addition, area, etc.
-- Operators → swap, calculator, temperature conversion
-- Loops → factorial, reverse, patterns
+- Operators → swap, calculator, temperature conversion ,etc
+- Loops → factorial, reverse, patterns,etc
+- Function → parameters,arguments,return,void,resurrsion etc
+- pointer → reference,deference,double pointer,pointer in function,etc.
+- array → read array, elements of array ,binary , address of array , randint array , etc
 
 ## 🛠 How to Run
 ```bash
