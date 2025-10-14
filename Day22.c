@@ -44,9 +44,9 @@ int main() {
 
     // Check if strong number
     if (sum == num)
-        printf("Strong number\n");
+        printf("angstrong number\n");
     else
-        printf("Not strong number\n");
+        printf("Not angstrong number\n");
 
     return 0;
 }

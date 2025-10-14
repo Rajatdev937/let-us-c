@@ -27,7 +27,7 @@ int main() {
 
     SI = (p * r * t) / 100;//simple interest formula
 
-    printf("Simple Interest = %.2f\n", I);
+    printf("Simple Interest = %.2f\n", SI);
 
     return 0;
 }
@@ -49,8 +49,6 @@ int main() {
 
     printf("enter the number of times that interest is compounded per year: ");
      
-    CI=p*pow((1+r/n)n*t);// Compound Interest formula
-
     printf("Compound Interest = %.2f\n",CI);
-    return:0
+    return 0;
 }
