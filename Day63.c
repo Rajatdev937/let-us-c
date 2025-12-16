@@ -15,7 +15,6 @@ Output 2:
 #include <stdio.h>
 #include <stdlib.h>
 
-// Comparison function for qsort
 int cmpfunc(const void *a, const void *b) {
     return (*(int*)a - *(int*)b);
 }
@@ -23,26 +22,21 @@ int cmpfunc(const void *a, const void *b) {
 int main() {
     int n, k;
     
-    // Input array size
     printf("Enter number of elements: ");
     scanf("%d", &n);
     
     int arr[n];
     
-    // Input array elements
     printf("Enter the elements: ");
     for(int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
     
-    // Input k
     printf("Enter k: ");
     scanf("%d", &k);
     
-    // Sort the array
     qsort(arr, n, sizeof(int), cmpfunc);
     
-    // Print the kth smallest element
     printf("%d\n", arr[k - 1]);
     
     return 0;

@@ -1,0 +1,1 @@
+"c:\Users\Rajat Negi\OneDrive\Desktop\PROG LANG\let-us-c\" ; if ($?) { gcc Day76.c -o Day76 } ; if ($?) { .\Day76 }
