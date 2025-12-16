@@ -10,7 +10,12 @@ Each program is written in C language and organized by topic.
 - Loops → factorial, reverse, patterns,etc
 - Function → parameters,arguments,return,void,resurrsion etc
 - pointer → reference,deference,double pointer,pointer in function,etc.
-- array → read array, elements of array ,binary , address of array , randint array , etc
+- array → read array, elements of array ,binary , address of array , randint array , matrices of array , etc
+- Structures → defining structures, structure variables, array of structures, pointer to structures
+- DMA (Dynamic Memory Allocation)** → malloc, calloc, realloc, free
+- PPOs (Preprocessor Directives)** → #define, macros, #include, conditional compilation.
+- Enum → enum declaration, enum variables, use cases in programs
+ 
 
 ## 🛠 How to Run
 ```bash
